@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Margin Calculator</title>
+	<link rel="stylesheet" type="text/css" href="GM.css">
+</head>
+<body>
+	<h1 id="title">Retailer Margin Calculator</h1>
+
+
+<div id="containerMain">
+	<div id="containerInputs">
+		<div class="inputChild">
+			<label for="Discount">Nike Discount</label><br>
+			<input type="number" id="Discount" placeholder="example: 20">%
+		</div>
+		<div class="inputChild">
+			<label for="markup">Mark Up</label><br>
+			<input type="number" id="markup" placeholder="example: 2.06">
+		</div>
+		<div class="inputChild">
+			<label for="VAT">VAT</label><br>
+			<input type="number" id="VAT" placeholder="example: 20">%
+		</div>
+	</div>
+	<div id="calculator">
+	<table>
+		<!-- <tr>
+			<td class="empty"></td>
+			<td colspan="13" class="header">MD%</td>
+		</tr> -->
+		<tr>
+			<td class="header">MD%</td>
+			<td class="md">0%</td>
+			<td class="md">5%</td>
+			<td class="md">10%</td>
+			<td class="md">15%</td>
+			<td class="md">20%</td>
+			<td class="md">25%</td>
+			<td class="md">30%</td>
+			<td class="md">35%</td>
+			<td class="md">40%</td>
+			<td class="md">45%</td>
+			<td class="md">50%</td>
+			<td class="md">55%</td>
+			<td class="mdManual"><input type="number" id="mdAdjust">%</td>
+		</tr>
+		<tr>
+			<td class="header">GM%</td>
+			<td class="output"></td>
+			<td class="output"></td>
+			<td class="output"></td>
+			<td class="output"></td>
+			<td class="output"></td>
+			<td class="output"></td>
+			<td class="output"></td>
+			<td class="output"></td>
+			<td class="output"></td>
+			<td class="output"></td>
+			<td class="output"></td>
+			<td class="output"></td>
+			<td class="output"></td>
+		</tr>
+
+	</table>
+	</div>
+	
+</div>
+
+<script type="text/javascript" src="GM.js"></script>
+</body>
+</html>
