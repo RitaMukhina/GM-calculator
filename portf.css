@@ -1,0 +1,35 @@
+#profile-pic{
+	border-radius: 50%;
+}
+
+#logo{
+	float: right;
+	padding-left: 3px;
+	padding-top: 5px;
+	font-size: 17px;
+}
+
+
+#name{
+	padding-left: 0;
+}
+
+.container .lead{
+	margin-bottom: 7px;
+	padding-left: 2.5px;
+	max-width: 50%;
+}
+
+ #header {
+        background: url("keyboard2.jpg") no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+.jumbotron a{
+	padding-left: 4px;
+}
+
+.section-header {
+        text-align: center;
+       }
