@@ -1,0 +1,50 @@
+      #header {
+        background: url("background4.2-min.jpg") no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      /*body {*/
+  /*      padding-top: 0.5%; 
+    }*/
+
+      .card-img-top {
+        object-fit: cover;
+        height: 200px;
+      }
+
+      .bg-custom {
+        background-color: #6b6c54;
+      }
+
+      .display-5 {
+        color: white;
+      }
+
+      .section-header {
+        text-align: center;
+       }
+      #mainNavbar .nav-link{
+        color: white;
+      }
+
+#mainNavbar .nav-link:hover{
+  color: #b0a68b;
+
+}
+
+/*#mainNavbar {
+  opacity: 0.7;
+  background-color: grey;  
+}*/
+
+/*.jumbotron {
+  padding-top: 6.5%;
+}*/
+
+#mainNavbar{
+  transition:500ms ease;
+}
+#mainNavbar.scrolled{
+  background: #212526;
+}
