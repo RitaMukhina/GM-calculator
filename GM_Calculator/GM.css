@@ -1,0 +1,85 @@
+body{
+	text-align: center;
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+	color: white;
+	text-transform: uppercase;
+}
+
+h1 {
+	line-height: 1.1;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	padding: 20px 0;
+}
+
+#containerMain {
+	max-width: 800px;
+	margin: auto;
+}
+
+#containerInputs{
+	height: 70px;
+	margin: auto;
+}
+
+.inputChild{
+	float: left;
+	width: 30%;
+	margin: 1.66%;
+	height: 50px;
+}
+
+table {
+	margin: auto;
+	table-layout: fixed;
+	width: 100%;
+	padding-top: 30px;
+	border-spacing: 0;
+}
+
+.md, .mdManual{
+	border: 1px solid white;
+	word-wrap: break-word;
+	background: steelblue;
+}
+
+.output{
+	font-size: 0.9rem;
+	border: 1px solid white;
+	height: 20px;
+	background-color: #555555;
+	transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+}
+
+.header{
+	border: 1px solid white;
+	background-color: #f56642;
+	text-align: center;
+}
+
+input{
+	height: 15px;
+  	padding: 5px 10px 5px 10px;
+  	border-radius: 10px;
+ 	background: radial-gradient(circle, #555555, #535353, #505050, #4e4e4e, #4c4c4c);
+ 	color: white;
+}
+
+#mdAdjust{
+	width: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
